@@ -9,11 +9,11 @@
 **Projeto:** Projeto Calculadora  
 **Contexto:** FinançApp  
 **Aluno:** André Machado  
-**RA:** Preencher  
+**RA:** 250803
 **Curso:** Análise e Desenvolvimento de Sistemas  
 **Instituição:** Centro Universitário Facens  
-**Disciplina:** Preencher  
-**Professor:** Preencher  
+**Disciplina:** UX/UI
+**Professor:** Daniel Ohata
 **Semestre:** 2026.2  
 
 ---
