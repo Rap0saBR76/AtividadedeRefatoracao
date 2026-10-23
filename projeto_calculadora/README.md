@@ -221,7 +221,10 @@ Exemplo:
 ---
 
 ## 11. Refatoração
-![Código da classe Calculadora](images/classe.jpeg)
+### Código após a refatoração
+O código foi reorganizado em métodos específicos para cada operação, facilitando a leitura e a manutenção da calculadora.
+
+![Código após a refatoração](images/refatoracao.jpeg)
 
 Foi criada uma branch específica para a refatoração:
 
@@ -247,6 +250,14 @@ Após a refatoração, os testes unitários devem ser executados novamente para 
 ## 12. Documentação JavaDoc
 
 ![Detalhes do método calc](images/detalhes%20do%20método.jpeg)
+A documentação JavaDoc foi gerada para facilitar a consulta e o entendimento do código da calculadora.
+
+Ela apresenta informações sobre a classe, os métodos, os parâmetros, os valores retornados e as exceções que podem ocorrer durante a execução.
+
+A imagem abaixo mostra os detalhes do método "calc" na documentação gerada.
+
+Os arquivos HTML da documentação estão disponíveis na pasta "docs", cujo arquivo principal é o "index.html".
+
 
 A classe `Calculadora` e seus métodos possuem documentação técnica utilizando JavaDoc.
 
