@@ -1,128 +1,115 @@
 # Projeto Calculadora — FinançApp
 
->  Este projeto foi desenvolvido como atividade acadêmica para praticar a criação de uma calculadora em Java e aplicar conceitos de testes, tratamento de erros, refatoração, documentação e versionamento com Git e GitHub.
+> Este projeto foi desenvolvido como atividade acadêmica para praticar a criação de uma calculadora em Java. Durante o desenvolvimento, trabalhei com operações matemáticas, testes unitários, tratamento de erros, refatoração, documentação e versionamento do projeto.
+
 ---
 
 ## 1. Identificação do Projeto
 
-**Projeto:** Projeto Calculadora  
-**Contexto:** FinançApp  
-**Aluno:** André Machado  
-**RA:** 250803
-**Curso:** Análise e Desenvolvimento de Sistemas  
-**Instituição:** Centro Universitário Facens  
-**Disciplina:** UX/UI
-**Professor:** Daniel Ohata
-**Semestre:** 2026.2  
+*Projeto:* Projeto Calculadora
+*Contexto:* FinançApp
+*ALuno:* André Machado
+*RA:* 250803
+*Curso:* Análise e Desenvolvimento de Sistemas
+*Instituição:* Centro Universitário Facens
+*Disciplina:* UX/UI
+*Professor:* Daniel Ohata
+*Semestre:* 2026.2
 
 ---
 
 ## 2. Visão Geral
 
-O projeto consiste no desenvolvimento de um módulo de cálculos matemáticos básicos em Java para a startup fictícia **FinançApp**.
+O projeto consiste em uma calculadora desenvolvida em Java para realizar operações matemáticas básicas. A proposta é que esse módulo possa ser utilizado futuramente em funcionalidades da startup fictícia *FinançApp*, como cálculos de despesas e organização financeira.
 
-O módulo foi desenvolvido para ser utilizado futuramente em funcionalidades de controle financeiro, como orçamento mensal, divisão de despesas, projeções financeiras e cálculos auxiliares.
-
-Além do funcionamento correto das operações, o projeto aplica práticas de qualidade de software relacionadas a testes, tratamento de erros, refatoração, documentação e versionamento.
+Além de implementar as operações, o projeto busca manter o código organizado, facilitar a identificação de erros e permitir que futuras alterações sejam realizadas com mais facilidade.
 
 ---
 
 ## 3. Problema
 
-Durante o desenvolvimento da aplicação FinançApp, foi identificada a necessidade de criar um módulo matemático reutilizável.
+Uma aplicação voltada para o controle financeiro precisa realizar cálculos corretamente e tratar situações inesperadas. Por isso, a calculadora precisa lidar com operações inválidas e evitar problemas como a divisão por zero.
 
-O módulo deve funcionar corretamente e apresentar código legível, testes automatizados, tratamento de falhas, documentação técnica, controle de versões e facilidade de manutenção.
+Também é importante que o código seja organizado e fácil de entender, facilitando sua manutenção e possíveis melhorias.
 
 ---
 
 ## 4. Objetivo
 
-### 4.1 Objetivo Geral
+### 4.1 Objetivo geral
 
-Desenvolver uma calculadora em Java aplicando práticas de qualidade, testes, documentação, refatoração e versionamento.
+Desenvolver uma calculadora em Java e aplicar conhecimentos relacionados à qualidade, aos testes, à documentação, à refatoração e ao versionamento de software.
 
-### 4.2 Objetivos Técnicos
+### 4.2 Objetivos específicos
 
-- Implementar operações matemáticas básicas.
-- Tratar entradas inválidas.
-- Impedir divisão por zero.
-- Desenvolver testes automatizados.
-- Refatorar o código sem alterar seu comportamento.
+- Implementar as quatro operações matemáticas básicas.
+- Tratar divisão por zero e operadores inválidos.
+- Criar testes unitários para verificar os resultados.
+- Refatorar o código para melhorar sua organização.
 - Documentar classes e métodos com JavaDoc.
-- Gerar documentação HTML.
-- Utilizar Git e GitHub.
-- Organizar commits e branches.
+- Gerar a documentação em formato HTML.
+- Utilizar Git para acompanhar as alterações do projeto.
+- Utilizar o GitHub para armazenar e organizar os arquivos.
 
 ---
 
-## 5. Escopo Funcional
+## 5. Funcionalidades Implementadas
 
-| ID | Funcionalidade | Descrição | Status |
+| Código| Funcionalidade| Descrição
 |---|---|---|---|
-| RF01 | Soma | Soma dois números inteiros | ✅ |
-| RF02 | Subtração | Subtrai dois números inteiros | ✅ |
-| RF03 | Multiplicação | Multiplica dois números inteiros | ✅ |
-| RF04 | Divisão | Divide dois números inteiros | ✅ |
-| RF05 | Validação de divisão | Impede divisão por zero | ✅ |
-| RF06 | Operação inválida | Trata operadores não suportados | ✅ |
+RF01| Soma| Soma dois números inteiros.
+RF02| Subtração| Subtrai dois números inteiros.
+RF03| Multiplicação| Multiplica dois números inteiros.
+RF04| Divisão| Divide dois números inteiros.
+RF05| Divisão por zero| Trata a tentativa de divisão por zero.
+RF06| Operação inválida| Trata operadores não suportados.
 
 ---
 
-## 6. Requisitos Não Funcionais
+## 6. Requisitos de Qualidade
 
-| ID | Categoria | Requisito |
-|---|---|---|
-| RNF01 | Qualidade | Código organizado e legível |
-| RNF02 | Testabilidade | Operações cobertas por testes automatizados |
-| RNF03 | Manutenção | Código preparado para refatoração |
-| RNF04 | Documentação | Classes e métodos documentados com JavaDoc |
-| RNF05 | Versionamento | Utilização de Git e GitHub |
-| RNF06 | Confiabilidade | Tratamento de situações de erro |
+Durante o desenvolvimento, foram considerados alguns aspectos importantes:
 
----
+- Organização: manter o código legível e bem estruturado.
+- Testabilidade: verificar as operações por meio de testes automatizados.
+- Manutenção: facilitar futuras alterações no código.
+- Documentação: explicar o funcionamento das classes e dos métodos.
+- Confiabilidade: tratar situações que podem gerar erros.
+- Versionamento: acompanhar as mudanças realizadas no projeto.
+
+  ---
 
 ## 7. Tecnologias Utilizadas
 
-| Tecnologia | Utilização |
+Tecnologia| Utilização
 |---|---|
-| Java 17 | Desenvolvimento |
-| JUnit 5 | Testes unitários |
-| Maven | Gerenciamento e execução do projeto |
-| Git | Controle de versão |
-| GitHub | Repositório remoto |
-| JavaDoc | Documentação técnica |
-| IDE | Desenvolvimento |
+Java 24| Desenvolvimento da calculadora.
+JUnit 5| Criação e execução dos testes unitários.
+Maven| Gerenciamento do projeto e das dependências.
+GitHub| Armazenamento e organização do repositório.
+JavaDoc| Geração da documentação técnica.
 
 ---
 
 ## 8. Estrutura do Projeto
 
-```text
 projeto_calculadora/
-│
 ├── src/
-│   ├── main/
-│   │   └── java/
-│   │       └── calculadora/
-│   │           └── Calculadora.java
-│   │
-│   └── test/
-│       └── java/
-│           └── calculadora/
-│               └── TesteCalculadora.java
-│
+│   ├── main/java/calculadora/
+│   │   └── Calculadora.java
+│   └── test/java/calculadora/
+│       └── TesteCalculadora.java
 ├── docs/
 │   └── index.html
-│
 ├── images/
 │   ├── testes/
-│   ├── javadoc/
-│   └── refatoracao/
-│
+│   │   └── testes.jpeg
+│   ├── detalhes do método.jpeg
+│   └── refatoracao.jpeg
 ├── pom.xml
-├── README.md
-└── .gitignore
-```
+└── README.md
+
+A pasta "src" contém o código-fonte e os testes. A pasta "docs" armazena a documentação HTML, enquanto a pasta "images" reúne as imagens utilizadas neste README. O arquivo "pom.xml" contém as configurações do Maven.
 
 ---
 
@@ -130,228 +117,103 @@ projeto_calculadora/
 
 ### Soma
 
-Utiliza o operador `+`.
+Realiza a adição de dois números inteiros.
 
-Exemplo:
-
-```text
 10 + 5 = 15
-```
 
 ### Subtração
 
-Utiliza o operador `-`.
+Calcula a diferença entre dois números inteiros.
 
-Exemplo:
-
-```text
 10 - 5 = 5
-```
 
 ### Multiplicação
 
-Utiliza o operador `*`.
+Multiplica dois números inteiros.
 
-Exemplo:
-
-```text
 10 * 5 = 50
-```
 
 ### Divisão
 
-Utiliza o operador `/`.
+Realiza a divisão entre dois números inteiros, desde que o divisor seja diferente de zero.
 
-Exemplo:
-
-```text
 10 / 5 = 2
-```
 
-### Divisão por zero
+Tratamento de erros
 
-A divisão por zero é tratada por meio de `ArithmeticException`, impedindo que a operação seja executada de maneira incorreta.
+A calculadora trata situações inválidas. Uma tentativa de divisão por zero gera uma "ArithmeticException", enquanto um operador não suportado gera uma "IllegalArgumentException".
 
-### Operação inválida
-
-Operadores diferentes de `+`, `-`, `*` e `/` são rejeitados por meio de `IllegalArgumentException`.
+Essas verificações ajudam a evitar a execução de operações inválidas sem o devido tratamento.
 
 ---
 
 ## 10. Testes Unitários
 
+Os testes foram desenvolvidos com JUnit 5 para verificar se as operações apresentam os resultados esperados.
+
+Foram considerados os seguintes casos:
+
+- Soma;
+- Subtração;
+- Multiplicação;
+- Divisão;
+- Divisão por zero;
+- Operação inválida.
+
 ![Execução dos testes unitários](images/testes/testes.jpeg)
 
-Foram implementados testes utilizando **JUnit 5** para validar:
-
-- soma;
-- subtração;
-- multiplicação;
-- divisão;
-- divisão por zero;
-- operação inválida.
-
-### Resultado esperado
-
-Todos os testes devem ser aprovados após a execução:
-
-```text
-Tests run: 6
-Failures: 0
-Errors: 0
-Skipped: 0
-```
-
-> Substitua ou complemente esta seção com o print real da execução dos testes.
-
-### Print dos testes
-
-Coloque a captura de tela em:
-
-```text
-images/testes/
-```
-
-Exemplo:
-
-```markdown
-![Execução dos testes](images/testes/testes.png)
-```
+A imagem acima mostra a execução dos testes unitários. Esses testes ajudam a identificar possíveis problemas e a verificar se as operações continuam funcionando corretamente.
 
 ---
 
-## 11. Refatoração
-### Código após a refatoração
-O código foi reorganizado em métodos específicos para cada operação, facilitando a leitura e a manutenção da calculadora.
+** 11. Refatoração
+
+A refatoração foi realizada para melhorar a organização e facilitar a leitura do código. As operações foram separadas em métodos específicos, tornando cada parte da calculadora mais fácil de compreender.
 
 ![Código após a refatoração](images/refatoracao.jpeg)
 
-Foi criada uma branch específica para a refatoração:
+A refatoração foi registrada em uma branch chamada "Refatoracao". O objetivo foi melhorar a estrutura do código sem alterar o comportamento esperado das operações.
 
-```text
-Refatoracao
-```
-
-Durante a refatoração foram aplicadas técnicas como:
-
-- extração de métodos;
-- melhoria dos nomes;
-- simplificação das estruturas condicionais;
-- organização lógica;
-- melhoria da legibilidade;
-- separação das responsabilidades.
-
-O comportamento funcional da calculadora foi preservado.
-
-Após a refatoração, os testes unitários devem ser executados novamente para confirmar que não houve regressão.
+Após a refatoração, os testes unitários devem ser executados novamente para verificar se as funcionalidades continuam funcionando como esperado.
 
 ---
 
 ## 12. Documentação JavaDoc
 
-![Detalhes do método calc](images/detalhes%20do%20método.jpeg)
-A documentação JavaDoc foi gerada para facilitar a consulta e o entendimento do código da calculadora.
+A documentação JavaDoc foi utilizada para explicar o funcionamento da calculadora e facilitar a consulta às informações do código.
 
-Ela apresenta informações sobre a classe, os métodos, os parâmetros, os valores retornados e as exceções que podem ocorrer durante a execução.
+![Detalhes do método calc](images/detalhes%20do%20m%C3%A9todo.jpeg)
 
-A imagem abaixo mostra os detalhes do método "calc" na documentação gerada.
+A imagem apresenta os detalhes do método "calc", incluindo informações sobre seus parâmetros, o retorno e as exceções previstas.
 
-Os arquivos HTML da documentação estão disponíveis na pasta "docs", cujo arquivo principal é o "index.html".
+A documentação contempla descrições das classes e dos métodos, além de informações sobre o autor e a versão.
 
-
-A classe `Calculadora` e seus métodos possuem documentação técnica utilizando JavaDoc.
-
-A documentação inclui:
-
-- descrição das classes;
-- descrição dos métodos;
-- parâmetros;
-- retornos;
-- exceções;
-- autor;
-- versão.
-
-A documentação HTML deve ser gerada na pasta:
-
-```text
-docs/
-```
-
-O arquivo principal é:
-
-```text
-docs/index.html
-```
-
-### Print da documentação
-
-Coloque a captura de tela em:
-
-```text
-images/javadoc/
-```
-
-Exemplo:
-
-```markdown
-![Documentação JavaDoc](images/javadoc/javadoc.png)
-```
+Os arquivos HTML da documentação estão na pasta "docs", e o arquivo principal é "docs/index.html".
 
 ---
 
-## 13. Versionamento
+## 13. Organização do Projeto no GitHub
 
-O projeto utiliza Git para controle de versão.
+Utilizei o GitHub para armazenar os arquivos da calculadora e organizar o projeto em um repositório. Por meio do site, foi possível adicionar e editar arquivos, atualizar o README e manter o código e a documentação disponíveis no mesmo lugar.
 
-Branches principais:
+O projeto também possui uma branch chamada "Refatoracao", destinada às alterações feitas para melhorar a organização do código.
 
-```text
-main
-Refatoracao
-```
-
-Sugestão de organização dos commits:
-
-```text
-feat: cria estrutura inicial do projeto
-feat: implementa classe Calculadora
-test: adiciona testes unitários
-docs: adiciona JavaDoc
-refactor: reorganiza código da calculadora
-docs: adiciona documentação HTML
-docs: atualiza README
-```
+Repositório do projeto: "Projeto Calculadora — FinançApp" (https://github.com/Rap0saBR76/AtividadedeRefatoracao)
 
 ---
 
-## 14. GitHub
+## 14. Conclusão
 
-**Repositório:** [COLOCAR LINK DO REPOSITÓRIO]
+Desenvolver este projeto foi uma oportunidade de colocar em prática os conhecimentos de Java e entender melhor como organizar um código além de simplesmente fazer ele funcionar. Mesmo sendo uma calculadora com operações básicas, a atividade permitiu trabalhar com diferentes etapas do desenvolvimento, desde a implementação das funcionalidades até os testes e a documentação.
 
-O repositório remoto deverá conter:
+Uma parte importante foi verificar os resultados das operações e considerar situações que poderiam causar erros, como a divisão por zero e o uso de operadores inválidos. Também pude perceber como a refatoração ajuda a deixar o código mais organizado e fácil de entender, sem precisar mudar o comportamento esperado da calculadora.
 
-- código-fonte;
-- testes;
-- documentação;
-- README;
-- branch `main`;
-- branch `Refatoracao`;
-- histórico de commits organizado.
+Outro aprendizado foi utilizar o JavaDoc para documentar o código e o Git para acompanhar as alterações do projeto, utilizando o GitHub para armazenar e organizar os arquivos. Essas práticas ajudam a manter o trabalho mais estruturado e facilitam futuras correções e melhorias.
 
----
+No geral, essa atividade me ajudou a compreender que desenvolver um programa não é apenas escrever um código que funcione. Também é importante testar suas funcionalidades, documentar seu funcionamento e manter uma organização que facilite a compreensão e a manutenção do projeto. Considero que esses conhecimentos serão úteis em atividades futuras e no desenvolvimento de aplicações mais completas.
 
-## 15. Conclusão
+## 15. Autor
 
-O projeto permitiu aplicar conceitos fundamentais de qualidade de software em uma aplicação Java simples.
-
-Foram trabalhados desenvolvimento funcional, testes unitários, tratamento de erros, refatoração, documentação técnica e versionamento.
-
-A utilização dessas práticas contribui para um código mais confiável, legível, organizado e preparado para manutenção e evolução futura.
-
----
-
-## 16. Autor
-
-**André Machado**  
-Centro Universitário Facens  
+André Machado
 Curso de Análise e Desenvolvimento de Sistemas
+Centro Universitário Facens
