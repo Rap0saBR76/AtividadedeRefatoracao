@@ -1,7 +1,6 @@
 # Projeto Calculadora — FinançApp
 
-> Projeto acadêmico desenvolvido com foco em Qualidade de Software, Testes, Refatoração, Documentação e Versionamento.
-
+>  Este projeto foi desenvolvido como atividade acadêmica para praticar a criação de uma calculadora em Java e aplicar conceitos de testes, tratamento de erros, refatoração, documentação e versionamento com Git e GitHub.
 ---
 
 ## 1. Identificação do Projeto
@@ -181,6 +180,8 @@ Operadores diferentes de `+`, `-`, `*` e `/` são rejeitados por meio de `Illega
 
 ## 10. Testes Unitários
 
+![Execução dos testes unitários](images/testes/testes.jpeg)
+
 Foram implementados testes utilizando **JUnit 5** para validar:
 
 - soma;
@@ -220,6 +221,7 @@ Exemplo:
 ---
 
 ## 11. Refatoração
+![Código da classe Calculadora](images/classe.jpeg)
 
 Foi criada uma branch específica para a refatoração:
 
@@ -243,6 +245,8 @@ Após a refatoração, os testes unitários devem ser executados novamente para 
 ---
 
 ## 12. Documentação JavaDoc
+
+![Detalhes do método calc](images/detalhes%20do%20método.jpeg)
 
 A classe `Calculadora` e seus métodos possuem documentação técnica utilizando JavaDoc.
 
