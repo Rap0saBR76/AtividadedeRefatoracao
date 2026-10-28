@@ -166,7 +166,7 @@ A imagem acima mostra a execução dos testes unitários. Esses testes ajudam a 
 
 ---
 
-** 11. Refatoração
+## 11. Refatoração
 
 A refatoração foi realizada para melhorar a organização e facilitar a leitura do código. As operações foram separadas em métodos específicos, tornando cada parte da calculadora mais fácil de compreender.
 
