@@ -160,7 +160,7 @@ Foram considerados os seguintes casos:
 - Divisão por zero;
 - Operação inválida.
 
-
+![Execução dos testes unitários](projeto_calculadora/images/teste.jpeg)
 
 A imagem acima mostra a execução dos testes unitários. Esses testes ajudam a identificar possíveis problemas e a verificar se as operações continuam funcionando corretamente.
 
