@@ -160,13 +160,13 @@ Foram considerados os seguintes casos:
 - Divisão por zero;
 - Operação inválida.
 
-![Execução dos testes unitários](images/testes/testes.jpeg)
+
 
 A imagem acima mostra a execução dos testes unitários. Esses testes ajudam a identificar possíveis problemas e a verificar se as operações continuam funcionando corretamente.
 
 ---
 
-** 11. Refatoração
+## 11. Refatoração
 
 A refatoração foi realizada para melhorar a organização e facilitar a leitura do código. As operações foram separadas em métodos específicos, tornando cada parte da calculadora mais fácil de compreender.
 
