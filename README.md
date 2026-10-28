@@ -161,7 +161,6 @@ Foram considerados os seguintes casos:
 - Operação inválida.
 
 ![Execução dos testes unitários](images/testes/testes.jpeg)
-
 A imagem acima mostra a execução dos testes unitários. Esses testes ajudam a identificar possíveis problemas e a verificar se as operações continuam funcionando corretamente.
 
 ---
@@ -181,8 +180,7 @@ Após a refatoração, os testes unitários devem ser executados novamente para 
 ## 12. Documentação JavaDoc
 
 A documentação JavaDoc foi utilizada para explicar o funcionamento da calculadora e facilitar a consulta às informações do código.
-
-![Detalhes do método calc](images/detalhes%20do%20m%C3%A9todo.jpeg)
+![Detalhes do método calc](images/detalhes%20do%20método.jpeg)
 
 A imagem apresenta os detalhes do método "calc", incluindo informações sobre seus parâmetros, o retorno e as exceções previstas.
 
