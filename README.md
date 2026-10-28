@@ -160,7 +160,7 @@ Foram considerados os seguintes casos:
 - Divisão por zero;
 - Operação inválida.
 
-![Execução dos testes unitários](images/testes/testes.jpeg)
+![Execução dos testes unitários](projeto_calculadora/images/teste.jpeg)
 A imagem acima mostra a execução dos testes unitários. Esses testes ajudam a identificar possíveis problemas e a verificar se as operações continuam funcionando corretamente.
 
 ---
@@ -169,7 +169,7 @@ A imagem acima mostra a execução dos testes unitários. Esses testes ajudam a 
 
 A refatoração foi realizada para melhorar a organização e facilitar a leitura do código. As operações foram separadas em métodos específicos, tornando cada parte da calculadora mais fácil de compreender.
 
-![Código após a refatoração](images/refatoracao.jpeg)
+![Código após a refatoração](projeto_calculadora/images/refatoracao.jpeg)
 
 A refatoração foi registrada em uma branch chamada "Refatoracao". O objetivo foi melhorar a estrutura do código sem alterar o comportamento esperado das operações.
 
@@ -180,7 +180,7 @@ Após a refatoração, os testes unitários devem ser executados novamente para 
 ## 12. Documentação JavaDoc
 
 A documentação JavaDoc foi utilizada para explicar o funcionamento da calculadora e facilitar a consulta às informações do código.
-![Detalhes do método calc](images/detalhes%20do%20método.jpeg)
+![Detalhes do método calc](projeto_calculadora/images/detalhes%20do%20m%C3%A9todo.jpeg)
 
 A imagem apresenta os detalhes do método "calc", incluindo informações sobre seus parâmetros, o retorno e as exceções previstas.
 
