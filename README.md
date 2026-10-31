@@ -169,7 +169,7 @@ A imagem acima mostra a execução dos testes unitários. Esses testes ajudam a 
 
 A refatoração foi realizada para melhorar a organização e facilitar a leitura do código. As operações foram separadas em métodos específicos, tornando cada parte da calculadora mais fácil de compreender.
 
-![Código após a refatoração](projeto_calculadora/images/refatoracao.jpeg)
+![Código após a refatoração](projeto_calculadora/images/refatoracao%20(1).jpeg)
 
 A refatoração foi registrada em uma branch chamada "Refatoracao". O objetivo foi melhorar a estrutura do código sem alterar o comportamento esperado das operações.
 
